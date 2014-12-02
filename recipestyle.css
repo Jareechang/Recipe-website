@@ -1,0 +1,244 @@
+
+
+/* Banner styling */
+.image img:first-child {
+
+	position: relative;
+	width:100%;
+	border-radius:50px;
+	-webkit-filter: blur(2px) brightness(0.55);
+
+
+/* 1st image  */
+	
+
+}
+
+.image img:nth-child(2){
+position:absolute;
+top:150px;
+left:25px;
+border-radius: 10px 100px 10px;
+-webkit-filter: brightness(0.6);
+}
+
+.image img:nth-child(3){
+position:absolute;
+top:150px;
+left:350px;
+border-radius: 10px 100px 10px;
+-webkit-filter: brightness(0.6);
+opacity: 0.75;
+}
+
+
+.image img:nth-child(4){
+position:absolute;
+top:150px;
+left:675px;
+border-radius: 10px 100px 10px;
+-webkit-filter: brightness(0.6);
+}
+
+
+
+
+/* 1st, 2nd and 3rd image hover effect */
+
+.image img:nth-child(2):hover, img:nth-child(3):hover, img:nth-child(4):hover{
+
+-webkit-filter:blur(0) brightness(1);
+border-width: 5 px;
+border-color: #EAD13C;
+border-style:solid;
+size:200%;
+
+opacity: 1;
+}
+
+/* header paragraph styling element (Taste of traditional spice) */
+.image p {
+
+position:absolute;
+font-size: 20px;
+color:white;
+top: 350px;
+left: 1100px;
+
+}
+
+/* header paragraph hover element (Taste of traditional spice) */
+
+.image p:hover {
+
+color: rgba(161, 219, 169, 0.9);
+
+
+}
+
+/* header h1 element (Chana Masala) */
+.image h1{
+font-size: 75px;
+color:white;
+position: absolute;
+top: 0px;
+left:20px;
+width: 100%;
+font-family: Arial;
+}
+
+.photos {
+display:inline;
+padding-top:100x;
+
+}
+
+#photos img {
+
+	border-radius: 5px 40px 5px;
+	padding-top:5px;
+}
+
+#ingredients {
+
+float:left; 
+
+text-align:center;
+
+width: 48%;
+
+
+background-color: rgba(154, 190, 221, 0.65);
+
+border-radius: 25px;
+font-family:Arial;
+
+
+}
+
+#directions {
+
+float:right;
+text-align:center;
+
+width: 50%;
+
+background-color: rgba(114, 156, 219, 0.71);
+
+border-radius: 25px;
+
+}
+
+/*dietary tabs styling */
+
+#dietaryoption div{
+
+
+	width:120px;
+	height:120px;
+	
+
+
+	background-color: rgba(96, 179, 31, 0.51);
+    border-radius:50%;
+	text-align: center;
+	display: inline-block;
+	position:relative;
+
+
+}	
+/*dietary text styling */
+
+#dietaryoption div p {
+
+	color: rgb(235, 245, 188);
+	position:relative;
+	top:35px;
+	font-size:90%;
+	font-family:Arial;
+
+	
+}	
+
+/*dietary text styling */
+
+#dietaryoption div p:hover {
+
+	color: rgba(247, 244, 16, 0.65);
+	position:relative;
+	top:30px;
+	
+	
+}	
+
+body {
+background-size:100%;
+-webkit-filter: brightness(1.4);
+
+}
+
+#ingredients ul {
+
+	list-style-type: none;
+}
+
+div p {
+
+left: 100px;
+
+}
+
+#accordion {
+
+	clear:both;
+}
+
+#ingredients h1 {
+
+background-color: rgba(7, 16, 37, 0.8);
+
+
+}
+#directions h1 {
+
+
+	background-color: rgba(7, 16, 37, 0.8);
+}
+
+html {
+	font-family: Arial;
+
+
+
+}
+
+#ingredients h1, #directions h1, .image h3 {
+
+ color: white;
+}
+
+.image h3 {
+
+position:absolute;
+left:51%;
+
+background-color: rgba(96, 179, 31, 0.83);
+
+border-radius: 25px;
+
+width: 15%;
+
+text-align: center;
+
+}
+
+#directions h4 {
+
+display:inline-block;
+width:20%;
+border-radius: 25px;
+background-color: rgba(96, 179, 31, 0.83);
+text-align: center;
+margin: 0px 30px 12px 30px;
+
+}
